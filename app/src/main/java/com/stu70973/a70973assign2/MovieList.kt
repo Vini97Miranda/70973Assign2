@@ -59,7 +59,7 @@ fun MovieListItem(movie: dataType, navController: NavController, modifier: Modif
                 Text(text = movie.name, style = typography.titleMedium)
                 if(movie.seats_selected > 0)
                 {
-                    Text(text = movie.seats_selected.toString() + " seats selected !",
+                    Text(text = movie.seats_selected.toString() + " seats selected",
                         style = typography.bodyMedium,
                         color = Color.Green
                     )
